@@ -1,0 +1,1411 @@
+!SESSION 2018-06-13 20:24:51.865 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-13 20:26:42.289
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wmfru'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-05-11 23:47:36.145 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-05-11 23:47:37.157
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.mylyn.gerrit.core 4 0 2023-05-11 23:47:37.388
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.gerrit.core [805]
+  Unresolved requirement: Import-Package: com.google.gerrit.common.auth.openid; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common.auth.openid; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+       com.google.gerrit.common [716]
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+           -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+              com.google.gwtjsonrpc [722]
+                Unresolved requirement: Import-Package: com.google.gwt.user.rebind; resolution:="optional"
+                Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                     com.google.gwt.servlet [721]
+                       Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                         -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                            javax.servlet [886]
+                       Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                         -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                  -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                Unresolved requirement: Import-Package: com.google.gwt.user.server.rpc; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.server.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                Unresolved requirement: Import-Package: com.google.gson; version="1.6.0"
+                  -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+                     com.google.gson [719]
+                Unresolved requirement: Import-Package: com.google.gwt.user.client; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.client; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                  -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+         Unresolved requirement: Require-Bundle: com.google.gerrit.reviewdb; bundle-version="2.1.5"
+           -> Bundle-SymbolicName: com.google.gerrit.reviewdb; bundle-version="2.1.5.v201112241444"
+              com.google.gerrit.reviewdb [718]
+                Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                     com.google.gwtorm [723]
+                       No resolution report for the bundle.                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                  -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+           -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+         Unresolved requirement: Require-Bundle: com.google.gerrit.prettify; bundle-version="2.1.5"
+           -> Bundle-SymbolicName: com.google.gerrit.prettify; bundle-version="2.1.5.v201112241444"
+              com.google.gerrit.prettify [717]
+                Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                  -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+           -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+  Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client.impl.ser; version="1.2.4"
+    -> Export-Package: com.google.gwtjsonrpc.client.impl.ser; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+  Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+    -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+  Unresolved requirement: Import-Package: com.google.gerrit.prettify.common; version="2.1.5"
+    -> Export-Package: com.google.gerrit.prettify.common; bundle-symbolic-name="com.google.gerrit.prettify"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gson.annotations; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson.annotations; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+  Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+    -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gerrit.common.auth.userpass; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common.auth.userpass; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gwtorm.server; version="1.1.4"
+    -> Export-Package: com.google.gwtorm.server; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+  Unresolved requirement: Import-Package: com.google.gerrit.common.auth; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common.auth; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.4"
+    -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+  Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+  Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+    -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+  Unresolved requirement: Import-Package: com.google.gwtjsonrpc.server; version="1.2.4"
+    -> Export-Package: com.google.gwtjsonrpc.server; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+  Unresolved requirement: Import-Package: com.google.gerrit.common.data; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common.data; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+  Unresolved requirement: Import-Package: org.apache.commons.io; version="1.4.0"
+    -> Export-Package: org.apache.commons.io; bundle-symbolic-name="org.apache.commons.io"; bundle-version="2.2.0.v201405211200"; version="2.2.0"
+       org.apache.commons.io [737]
+         No resolution report for the bundle.
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.gerrit.dashboard.core 4 0 2023-05-11 23:47:37.402
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.gerrit.dashboard.core [806]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.gerrit.core; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.gerrit.core; bundle-version="2.16.1.v20200828-1618"; singleton:="true"
+       org.eclipse.mylyn.gerrit.core [805]
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth.openid; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth.openid; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+              com.google.gerrit.common [716]
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                  -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                     com.google.gwtjsonrpc [722]
+                       Unresolved requirement: Import-Package: com.google.gwt.user.rebind; resolution:="optional"
+                       Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                            com.google.gwt.servlet [721]
+                              Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                                -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                                   javax.servlet [886]
+                              Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                                -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                       Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                         -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                       Unresolved requirement: Import-Package: com.google.gwt.user.server.rpc; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.server.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                       Unresolved requirement: Import-Package: com.google.gson; version="1.6.0"
+                         -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+                            com.google.gson [719]
+                       Unresolved requirement: Import-Package: com.google.gwt.user.client; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.client; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                       Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                         -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                Unresolved requirement: Require-Bundle: com.google.gerrit.reviewdb; bundle-version="2.1.5"
+                  -> Bundle-SymbolicName: com.google.gerrit.reviewdb; bundle-version="2.1.5.v201112241444"
+                     com.google.gerrit.reviewdb [718]
+                       Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                         -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                            com.google.gwtorm [723]
+                              No resolution report for the bundle.                       Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                         -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                Unresolved requirement: Require-Bundle: com.google.gerrit.prettify; bundle-version="2.1.5"
+                  -> Bundle-SymbolicName: com.google.gerrit.prettify; bundle-version="2.1.5.v201112241444"
+                     com.google.gerrit.prettify [717]
+                       Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                         -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                       Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                         -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client.impl.ser; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.client.impl.ser; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+           -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gerrit.prettify.common; version="2.1.5"
+           -> Export-Package: com.google.gerrit.prettify.common; bundle-symbolic-name="com.google.gerrit.prettify"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gson.annotations; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson.annotations; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+         Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+           -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth.userpass; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth.userpass; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gwtorm.server; version="1.1.4"
+           -> Export-Package: com.google.gwtorm.server; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+         Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+           -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.server; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.server; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.data; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.data; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+         Unresolved requirement: Import-Package: org.apache.commons.io; version="1.4.0"
+           -> Export-Package: org.apache.commons.io; bundle-symbolic-name="org.apache.commons.io"; bundle-version="2.2.0.v201405211200"; version="2.2.0"
+              org.apache.commons.io [737]
+                No resolution report for the bundle.
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.gerrit.dashboard.ui 4 0 2023-05-11 23:47:37.404
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.gerrit.dashboard.ui [807]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.gerrit.dashboard.core; bundle-version="2.2.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.gerrit.dashboard.core; bundle-version="2.16.1.v20200828-1618"; singleton:="true"
+       org.eclipse.mylyn.gerrit.dashboard.core [806]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.gerrit.core; bundle-version="2.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.gerrit.core; bundle-version="2.16.1.v20200828-1618"; singleton:="true"
+              org.eclipse.mylyn.gerrit.core [805]
+                Unresolved requirement: Import-Package: com.google.gerrit.common.auth.openid; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.common.auth.openid; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                     com.google.gerrit.common [716]
+                       Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                         -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                            com.google.gwtjsonrpc [722]
+                              Unresolved requirement: Import-Package: com.google.gwt.user.rebind; resolution:="optional"
+                              Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                                -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                                   com.google.gwt.servlet [721]
+                                     Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                                       -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                                          javax.servlet [886]
+                                     Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                                       -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                              Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                                -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                              Unresolved requirement: Import-Package: com.google.gwt.user.server.rpc; version="2.0.4"
+                                -> Export-Package: com.google.gwt.user.server.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                              Unresolved requirement: Import-Package: com.google.gson; version="1.6.0"
+                                -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+                                   com.google.gson [719]
+                              Unresolved requirement: Import-Package: com.google.gwt.user.client; version="2.0.4"
+                                -> Export-Package: com.google.gwt.user.client; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                              Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                                -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                       Unresolved requirement: Require-Bundle: com.google.gerrit.reviewdb; bundle-version="2.1.5"
+                         -> Bundle-SymbolicName: com.google.gerrit.reviewdb; bundle-version="2.1.5.v201112241444"
+                            com.google.gerrit.reviewdb [718]
+                              Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                                -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                                   com.google.gwtorm [723]
+                                     No resolution report for the bundle.                              Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                                -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                       Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                       Unresolved requirement: Require-Bundle: com.google.gerrit.prettify; bundle-version="2.1.5"
+                         -> Bundle-SymbolicName: com.google.gerrit.prettify; bundle-version="2.1.5.v201112241444"
+                            com.google.gerrit.prettify [717]
+                              Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                                -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                              Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                                -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                       Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                         -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client.impl.ser; version="1.2.4"
+                  -> Export-Package: com.google.gwtjsonrpc.client.impl.ser; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                Unresolved requirement: Import-Package: com.google.gerrit.prettify.common; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.prettify.common; bundle-symbolic-name="com.google.gerrit.prettify"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                Unresolved requirement: Import-Package: com.google.gson.annotations; version="[2.7.0,2.9.0)"
+                  -> Export-Package: com.google.gson.annotations; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+                Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                Unresolved requirement: Import-Package: com.google.gerrit.common.auth.userpass; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.common.auth.userpass; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                Unresolved requirement: Import-Package: com.google.gwtorm.server; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.server; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                Unresolved requirement: Import-Package: com.google.gerrit.common.auth; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.common.auth; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.4"
+                  -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+                  -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+                Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.server; version="1.2.4"
+                  -> Export-Package: com.google.gwtjsonrpc.server; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gerrit.common.data; version="2.1.5"
+                  -> Export-Package: com.google.gerrit.common.data; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+                Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+                  -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+                Unresolved requirement: Import-Package: org.apache.commons.io; version="1.4.0"
+                  -> Export-Package: org.apache.commons.io; bundle-symbolic-name="org.apache.commons.io"; bundle-version="2.2.0.v201405211200"; version="2.2.0"
+                     org.apache.commons.io [737]
+                       No resolution report for the bundle.  Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+    -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.gerrit.core; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.gerrit.core; bundle-version="2.16.1.v20200828-1618"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.gerrit.ui 4 0 2023-05-11 23:47:37.406
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.gerrit.ui [808]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.gerrit.core
+    -> Bundle-SymbolicName: org.eclipse.mylyn.gerrit.core; bundle-version="2.16.1.v20200828-1618"; singleton:="true"
+       org.eclipse.mylyn.gerrit.core [805]
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth.openid; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth.openid; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+              com.google.gerrit.common [716]
+                Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                  -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                     com.google.gwtjsonrpc [722]
+                       Unresolved requirement: Import-Package: com.google.gwt.user.rebind; resolution:="optional"
+                       Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                            com.google.gwt.servlet [721]
+                              Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                                -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                                   javax.servlet [886]
+                              Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                                -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                       Unresolved requirement: Import-Package: javax.servlet.http; version="2.5.0"
+                         -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                       Unresolved requirement: Import-Package: com.google.gwt.user.server.rpc; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.server.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                       Unresolved requirement: Import-Package: com.google.gson; version="1.6.0"
+                         -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+                            com.google.gson [719]
+                       Unresolved requirement: Import-Package: com.google.gwt.user.client; version="2.0.4"
+                         -> Export-Package: com.google.gwt.user.client; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                       Unresolved requirement: Import-Package: javax.servlet; version="2.5.0"
+                         -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                Unresolved requirement: Require-Bundle: com.google.gerrit.reviewdb; bundle-version="2.1.5"
+                  -> Bundle-SymbolicName: com.google.gerrit.reviewdb; bundle-version="2.1.5.v201112241444"
+                     com.google.gerrit.reviewdb [718]
+                       Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                         -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                            com.google.gwtorm [723]
+                              No resolution report for the bundle.                       Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                         -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+                  -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+                Unresolved requirement: Require-Bundle: com.google.gerrit.prettify; bundle-version="2.1.5"
+                  -> Bundle-SymbolicName: com.google.gerrit.prettify; bundle-version="2.1.5.v201112241444"
+                     com.google.gerrit.prettify [717]
+                       Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                         -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+                       Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.2"
+                         -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+                Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+                  -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client.impl.ser; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.client.impl.ser; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+           -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gerrit.prettify.common; version="2.1.5"
+           -> Export-Package: com.google.gerrit.prettify.common; bundle-symbolic-name="com.google.gerrit.prettify"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gson.annotations; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson.annotations; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+         Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+           -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth.userpass; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth.userpass; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gwtorm.server; version="1.1.4"
+           -> Export-Package: com.google.gwtorm.server; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.auth; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.auth; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+         Unresolved requirement: Import-Package: com.google.gwt.user.client.rpc; version="2.0.4"
+           -> Export-Package: com.google.gwt.user.client.rpc; bundle-symbolic-name="com.google.gwt.servlet"; bundle-version="2.0.4.v20100709-0658"; version="2.0.4"
+         Unresolved requirement: Import-Package: com.google.gwtjsonrpc.server; version="1.2.4"
+           -> Export-Package: com.google.gwtjsonrpc.server; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+         Unresolved requirement: Import-Package: com.google.gerrit.common.data; version="2.1.5"
+           -> Export-Package: com.google.gerrit.common.data; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+         Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+         Unresolved requirement: Import-Package: org.apache.commons.io; version="1.4.0"
+           -> Export-Package: org.apache.commons.io; bundle-symbolic-name="org.apache.commons.io"; bundle-version="2.2.0.v201405211200"; version="2.2.0"
+              org.apache.commons.io [737]
+                No resolution report for the bundle.  Unresolved requirement: Import-Package: com.google.gwtorm.client; version="1.1.4"
+    -> Export-Package: com.google.gwtorm.client; bundle-symbolic-name="com.google.gwtorm"; bundle-version="1.1.4.v201112241444"; version="1.1.4"
+  Unresolved requirement: Import-Package: org.apache.commons.io; version="1.4.0"
+    -> Export-Package: org.apache.commons.io; bundle-symbolic-name="org.apache.commons.io"; bundle-version="2.2.0.v201405211200"; version="2.2.0"
+  Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+  Unresolved requirement: Import-Package: com.google.gwtjsonrpc.client; version="1.2.4"
+    -> Export-Package: com.google.gwtjsonrpc.client; bundle-symbolic-name="com.google.gwtjsonrpc"; bundle-version="1.2.5.v201112241444"; version="1.2.5"
+  Unresolved requirement: Import-Package: com.google.gerrit.reviewdb; version="2.1.5"
+    -> Export-Package: com.google.gerrit.reviewdb; bundle-symbolic-name="com.google.gerrit.reviewdb"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gerrit.common; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+  Unresolved requirement: Import-Package: com.google.gerrit.common.data; version="2.1.5"
+    -> Export-Package: com.google.gerrit.common.data; bundle-symbolic-name="com.google.gerrit.common"; bundle-version="2.1.5.v201112241444"; version="2.1.5"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.hudson.core 4 0 2023-05-11 23:47:37.408
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.hudson.core [812]
+  Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+       com.google.gson [719]
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.hudson.ui 4 0 2023-05-11 23:47:37.410
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.hudson.ui [813]
+  Unresolved requirement: Require-Bundle: org.eclipse.ecf.discovery; bundle-version="3.0.0"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.ecf.provider.discovery; bundle-version="2.0.0"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.ecf.provider.jmdns; bundle-version="3.0.0"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.hudson.core
+    -> Bundle-SymbolicName: org.eclipse.mylyn.hudson.core; bundle-version="1.17.0.v20200730-1155"; singleton:="true"
+       org.eclipse.mylyn.hudson.core [812]
+         Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+              com.google.gson [719]
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.trac.core 4 0 2023-05-11 23:47:37.414
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.trac.core [832]
+  Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+       com.google.gson [719]
+  Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+    -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.trac.ui 4 0 2023-05-11 23:47:37.417
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.trac.ui [833]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.trac.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.trac.core; bundle-version="3.25.2.v20200814-0512"; singleton:="true"
+       org.eclipse.mylyn.trac.core [832]
+         Unresolved requirement: Import-Package: com.google.gson.reflect; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson.reflect; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"
+              com.google.gson [719]
+         Unresolved requirement: Import-Package: com.google.gson; version="[2.7.0,2.9.0)"
+           -> Export-Package: com.google.gson; bundle-symbolic-name="com.google.gson"; bundle-version="2.7.0.v20170129-0911"; version="2.7.0"; uses:="com.google.gson.internal,com.google.gson.reflect,com.google.gson.stream"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.batch 4 0 2023-05-11 23:47:37.633
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.batch [983]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.hyperlinks
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.hyperlinks; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.config.ui [1002]
+         Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.wizard
+           -> Bundle-SymbolicName: org.springframework.ide.eclipse.wizard; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+              org.springframework.ide.eclipse.wizard [1020]
+                Unresolved requirement: Require-Bundle: org.apache.commons.codec
+                  -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+                     org.apache.commons.codec [735]
+                Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+                  -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+                     org.codehaus.jackson.core [903]
+                Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+                  -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+                     org.codehaus.jackson.mapper [904]
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+                Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+                  -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                     org.springframework.ide.eclipse.quickfix [1012]
+                       Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+                         -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                            javax.servlet [886]
+                       Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+                         -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                Unresolved requirement: Require-Bundle: org.apache.commons.io
+                  -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+                     org.apache.commons.io [737]
+                       No resolution report for the bundle.  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors.batch.graph
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.editors.batch.graph; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.editors; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.widgets
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.widgets; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.bestpractices 4 0 2023-05-11 23:47:37.715
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.bestpractices [996]
+  Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+    -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+       org.springframework.ide.eclipse.quickfix [1012]
+         Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+              javax.servlet [886]
+         Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.config.ui 4 0 2023-05-11 23:47:37.780
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.config.ui [1002]
+  Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.wizard
+    -> Bundle-SymbolicName: org.springframework.ide.eclipse.wizard; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+       org.springframework.ide.eclipse.wizard [1020]
+         Unresolved requirement: Require-Bundle: org.apache.commons.codec
+           -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+              org.apache.commons.codec [735]
+         Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+           -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+              org.codehaus.jackson.core [903]
+         Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+           -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+              org.codehaus.jackson.mapper [904]
+                Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+                Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+                Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+                Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+                  -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+         Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+           -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+              org.springframework.ide.eclipse.quickfix [1012]
+                Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+                  -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                     javax.servlet [886]
+                Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+                  -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+         Unresolved requirement: Require-Bundle: org.apache.commons.io
+           -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+              org.apache.commons.io [737]
+                No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.data.core 4 0 2023-05-11 23:47:38.278
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.data.core [1004]
+  Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+    -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+       org.springframework.ide.eclipse.quickfix [1012]
+         Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+              javax.servlet [886]
+         Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+  Unresolved requirement: Require-Bundle: org.springframework.data.core
+    -> Bundle-SymbolicName: org.springframework.data.core; bundle-version="1.11.4.20160223-RELEASE"
+       org.springframework.data.core [976]
+         Unresolved requirement: Import-Package: com.google.common.base; version="[18.0.0,19.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: com.mysema.query; version="[3.6.9,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: com.mysema.query.types; version="[3.6.9,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: com.mysema.query.types.expr; version="[3.6.9,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: com.mysema.query.types.path; version="[3.6.9,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.context; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.context.spi; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.event; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.inject; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.inject.spi; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.enterprise.util; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.joda.time; version="[2.8.2,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.hateoas; version="[0.19.0,1.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.hateoas.core; version="[0.19.0,1.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.hateoas.mvc; version="[0.19.0,1.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.threeten.bp; version="[1.3.1,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.servlet.config.annotation; version="[4.1.9,5.1.0)"; resolution:="optional"
+           -> Export-Package: org.springframework.web.servlet.config.annotation; bundle-symbolic-name="org.springframework.web.servlet"; bundle-version="4.3.23.20190313-CI"; version="4.3.23.20190313-CI"; uses:="javax.servlet,javax.servlet.http,org.springframework.beans.factory.annotation,org.springframework.cache,org.springframework.context,org.springframework.context.annotation,org.springframework.core.task,org.springframework.format,org.springframework.format.support,org.springframework.http,org.springframework.util,org.springframework.validation,org.springframework.web.accept,org.springframework.web.bind.support,org.springframework.web.context,org.springframework.web.context.request,org.springframework.web.context.request.async,org.springframework.web.cors,org.springframework.web.method.support,org.springframework.web.servlet,org.springframework.web.servlet.handler,org.springframework.web.servlet.mvc,org.springframework.web.servlet.mvc.method.annotation,org.springframework.web.servlet.resource,org.springframework.web.servlet.view,org.springframework.web.util"
+              org.springframework.web.servlet [1029]
+                Unresolved requirement: Import-Package: com.fasterxml.jackson.dataformat.xml; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: com.lowagie.text; version="[2.0.8,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: com.lowagie.text.pdf; version="[2.0.8,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: com.rometools.rome.feed; resolution:="optional"
+                Unresolved requirement: Import-Package: com.rometools.rome.feed.atom; resolution:="optional"
+                Unresolved requirement: Import-Package: com.rometools.rome.feed.rss; resolution:="optional"
+                Unresolved requirement: Import-Package: com.rometools.rome.io; resolution:="optional"
+                Unresolved requirement: Import-Package: groovy.lang; resolution:="optional"
+                Unresolved requirement: Import-Package: groovy.text; resolution:="optional"
+                Unresolved requirement: Import-Package: groovy.text.markup; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.el; version="[1.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.servlet.jsp.jstl.core; version="[1.1.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.servlet.jsp.jstl.fmt; version="[1.1.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: jxl; version="[2.6.6,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: jxl.write; version="[2.6.6,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine.design; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine.export; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine.export.ooxml; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine.util; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: net.sf.jasperreports.engine.xml; version="[2.0.5,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.poi.hssf.usermodel; version="[3.0.2.FINAL,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.poi.ss.usermodel; version="[3.0.2.FINAL,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.poi.xssf.streaming; version="[3.0.2.FINAL,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.poi.xssf.usermodel; version="[3.0.2.FINAL,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.awareness; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition.dao; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition.digester; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.el; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.evaluator; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.evaluator.impl; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.extras.complete; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.factory; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.impl.mgmt; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.jsp.context; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.locale; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.locale.impl; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.preparer; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.preparer.factory; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.renderer; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.request; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.request.locale; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.request.render; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.request.servlet; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.servlet.context; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.startup; version="[2.1.2,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity; version="[1.5.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.app; version="[1.5.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.context; version="[1.5.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.exception; version="[1.5.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.runtime.resource.loader; version="[1.5.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.tools.generic; version="[1.4.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.tools.view; version="[1.4.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.tools.view.context; version="[1.4.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.velocity.tools.view.servlet; version="[1.4.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.webjars; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.ui.velocity; version="[4.3.23.20190313-CI,4.3.23.20190313-CI]"
+                  -> Export-Package: org.springframework.ui.velocity; bundle-symbolic-name="org.springframework.context.support"; bundle-version="4.3.23.20190313-CI"; version="4.3.23.20190313-CI"; uses:="org.apache.commons.collections,org.apache.velocity.app,org.apache.velocity.exception,org.apache.velocity.runtime.resource,org.apache.velocity.runtime.resource.loader,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io"
+                     org.springframework.context.support [974]
+                       Unresolved requirement: Import-Package: com.github.benmanes.caffeine.cache; resolution:="optional"
+                       Unresolved requirement: Import-Package: commonj.timers; version="[1.1.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: commonj.work; version="[1.1.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.cache; version="[0.5.0,1.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.cache.annotation; version="[0.5.0,1.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.cache.processor; version="[0.5.0,1.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.cache.spi; version="[0.5.0,1.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.ehcache; version="[1.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.ehcache.bootstrap; version="[1.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.ehcache.config; version="[1.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.ehcache.constructs.blocking; version="[1.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.ehcache.event; version="[1.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.jasperreports.engine; version="[2.0.5,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.jasperreports.engine.data; version="[2.0.5,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: net.sf.jasperreports.engine.export; version="[2.0.5,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.app; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.context; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.exception; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.runtime; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.runtime.log; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.runtime.resource; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.velocity.runtime.resource.loader; version="[1.5.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.impl; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.impl.jdbcjobstore; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.impl.triggers; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.simpl; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.spi; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.utils; version="[1.6.1,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.quartz.xml; version="[1.6.1,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.ui.freemarker; version="[4.3.23.20190313-CI,4.3.23.20190313-CI]"
+                  -> Export-Package: org.springframework.ui.freemarker; bundle-symbolic-name="org.springframework.context.support"; bundle-version="4.3.23.20190313-CI"; version="4.3.23.20190313-CI"; uses:="freemarker.cache,freemarker.template,org.springframework.beans.factory,org.springframework.context,org.springframework.core.io"
+                Unresolved requirement: Import-Package: org.springframework.ui.jasperreports; version="[4.3.23.20190313-CI,4.3.23.20190313-CI]"
+                  -> Export-Package: org.springframework.ui.jasperreports; bundle-symbolic-name="org.springframework.context.support"; bundle-version="4.3.23.20190313-CI"; version="4.3.23.20190313-CI"; uses:="net.sf.jasperreports.engine"
+                Unresolved requirement: Import-Package: javax.servlet; version="[2.4.0,4.0.0)"
+                  -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                Unresolved requirement: Import-Package: javax.servlet.http; version="[2.4.0,4.0.0)"
+                  -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+         Unresolved requirement: Import-Package: org.springframework.web.servlet.support; version="[4.1.9,5.1.0)"; resolution:="optional"
+           -> Export-Package: org.springframework.web.servlet.support; bundle-symbolic-name="org.springframework.web.servlet"; bundle-version="4.3.23.20190313-CI"; version="4.3.23.20190313-CI"; uses:="javax.servlet,javax.servlet.http,javax.servlet.jsp,javax.servlet.jsp.jstl.fmt,org.springframework.context,org.springframework.http,org.springframework.ui.context,org.springframework.validation,org.springframework.web.context,org.springframework.web.context.support,org.springframework.web.servlet,org.springframework.web.util"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.web.servlet [osgi.identity; type="osgi.bundle"; version:Version="4.3.23.20190313-CI"; osgi.identity="org.springframework.web.servlet"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.0.0.v201112011016"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.web.servlet [osgi.identity; type="osgi.bundle"; version:Version="4.3.23.20190313-CI"; osgi.identity="org.springframework.web.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=2.4.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.0.0.v201112011016"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.web.servlet [osgi.identity; type="osgi.bundle"; version:Version="4.3.23.20190313-CI"; osgi.identity="org.springframework.web.servlet"]
+    import: (&(osgi.wiring.package=freemarker.cache)(&(version>=2.3.14)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package=freemarker.cache; uses:=javax.servlet
+  org.freemarker [osgi.identity; type="osgi.bundle"; version:Version="2.3.22.v20160210-1233"; osgi.identity="org.freemarker"]
+    import: (osgi.wiring.package=javax.servlet)
+     |
+    export: osgi.wiring.package: javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.quickfix 4 0 2023-05-11 23:47:38.317
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.quickfix [1012]
+  Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+    -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+       javax.servlet [886]
+  Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+    -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui 4 0 2023-05-11 23:47:38.370
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui [1017]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1018]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.hyperlinks
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.hyperlinks; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.config.ui [1002]
+                Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.wizard
+                  -> Bundle-SymbolicName: org.springframework.ide.eclipse.wizard; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                     org.springframework.ide.eclipse.wizard [1020]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.codec
+                         -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+                            org.apache.commons.codec [735]
+                       Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+                         -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+                            org.codehaus.jackson.core [903]
+                       Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+                         -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+                            org.codehaus.jackson.mapper [904]
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+                       Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+                         -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                            org.springframework.ide.eclipse.quickfix [1012]
+                              Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+                                -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                                   javax.servlet [886]
+                              Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+                                -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                       Unresolved requirement: Require-Bundle: org.apache.commons.io
+                         -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+                            org.apache.commons.io [737]
+                              No resolution report for the bundle.         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.widgets
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.widgets; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.editors; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.editors; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.graph
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.graph; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.graph"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.graph [1019]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.editor 4 0 2023-05-11 23:47:38.417
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.editor [1018]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.hyperlinks
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.hyperlinks; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.config.ui [1002]
+         Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.wizard
+           -> Bundle-SymbolicName: org.springframework.ide.eclipse.wizard; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+              org.springframework.ide.eclipse.wizard [1020]
+                Unresolved requirement: Require-Bundle: org.apache.commons.codec
+                  -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+                     org.apache.commons.codec [735]
+                Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+                  -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+                     org.codehaus.jackson.core [903]
+                Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+                  -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+                     org.codehaus.jackson.mapper [904]
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+                       Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+                         -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+                Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+                  -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                     org.springframework.ide.eclipse.quickfix [1012]
+                       Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+                         -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                            javax.servlet [886]
+                       Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+                         -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                Unresolved requirement: Require-Bundle: org.apache.commons.io
+                  -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+                     org.apache.commons.io [737]
+                       No resolution report for the bundle.  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.widgets
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.widgets; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors
+    -> Export-Package: org.springframework.ide.eclipse.config.ui.editors; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.graph 4 0 2023-05-11 23:47:38.465
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.graph [1019]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1018]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.hyperlinks
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.hyperlinks; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.config.ui [1002]
+                Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.wizard
+                  -> Bundle-SymbolicName: org.springframework.ide.eclipse.wizard; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                     org.springframework.ide.eclipse.wizard [1020]
+                       Unresolved requirement: Require-Bundle: org.apache.commons.codec
+                         -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+                            org.apache.commons.codec [735]
+                       Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+                         -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+                            org.codehaus.jackson.core [903]
+                       Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+                         -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+                            org.codehaus.jackson.mapper [904]
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+                              Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+                                -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+                       Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+                         -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+                            org.springframework.ide.eclipse.quickfix [1012]
+                              Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+                                -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+                                   javax.servlet [886]
+                              Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+                                -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+                       Unresolved requirement: Require-Bundle: org.apache.commons.io
+                         -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+                            org.apache.commons.io [737]
+                              No resolution report for the bundle.         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.editors.webflow.graph; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.widgets
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.widgets; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.config.ui.editors
+           -> Export-Package: org.springframework.ide.eclipse.config.ui.editors; bundle-symbolic-name="org.springframework.ide.eclipse.config.ui"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="3.9.22.202204280911-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.wizard 4 0 2023-05-11 23:47:38.512
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.wizard [1020]
+  Unresolved requirement: Require-Bundle: org.apache.commons.codec
+    -> Bundle-SymbolicName: org.apache.commons.codec; bundle-version="1.9.0.v20170208-1614"
+       org.apache.commons.codec [735]
+  Unresolved requirement: Require-Bundle: org.codehaus.jackson.core
+    -> Bundle-SymbolicName: org.codehaus.jackson.core; bundle-version="1.6.0.v20101005-0925"
+       org.codehaus.jackson.core [903]
+  Unresolved requirement: Require-Bundle: org.codehaus.jackson.mapper
+    -> Bundle-SymbolicName: org.codehaus.jackson.mapper; bundle-version="1.6.0.v20101005-0925"
+       org.codehaus.jackson.mapper [904]
+         Unresolved requirement: Import-Package: org.codehaus.jackson.annotate; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson.annotate; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+         Unresolved requirement: Import-Package: org.codehaus.jackson.type; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson.type; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"
+         Unresolved requirement: Import-Package: org.codehaus.jackson.io; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson.io; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.util,org.codehaus.jackson"
+         Unresolved requirement: Import-Package: org.codehaus.jackson.util; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson.util; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.impl,org.codehaus.jackson"
+         Unresolved requirement: Import-Package: org.codehaus.jackson; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.sym,org.codehaus.jackson.annotate,org.codehaus.jackson.impl,org.codehaus.jackson.type,org.codehaus.jackson.io,org.codehaus.jackson.util"
+         Unresolved requirement: Import-Package: org.codehaus.jackson.impl; version="1.6.0"
+           -> Export-Package: org.codehaus.jackson.impl; bundle-symbolic-name="org.codehaus.jackson.core"; bundle-version="1.6.0.v20101005-0925"; version="1.6.0"; uses:="org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util,org.codehaus.jackson"
+  Unresolved requirement: Require-Bundle: org.springframework.ide.eclipse.quickfix
+    -> Bundle-SymbolicName: org.springframework.ide.eclipse.quickfix; bundle-version="3.9.22.202204280911-RELEASE"; singleton:="true"
+       org.springframework.ide.eclipse.quickfix [1012]
+         Unresolved requirement: Import-Package: javax.servlet; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet.descriptor,javax.servlet.annotation"
+              javax.servlet [886]
+         Unresolved requirement: Import-Package: javax.servlet.http; version="[3.1.0,4.0.0)"
+           -> Export-Package: javax.servlet.http; bundle-symbolic-name="javax.servlet"; bundle-version="3.1.0.v201410161800"; version="3.1.0"; uses:="javax.servlet"
+  Unresolved requirement: Require-Bundle: org.apache.commons.io
+    -> Bundle-SymbolicName: org.apache.commons.io; bundle-version="2.2.0.v201405211200"
+       org.apache.commons.io [737]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"] because it is exposed to package 'javax.servlet' from resources javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"] and jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"] via two dependency chains.
+
+Chain 1:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package: javax.servlet
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+
+Chain 2:
+  org.springframework.ide.eclipse.quickfix [osgi.identity; type="osgi.bundle"; version:Version="3.9.22.202204280911-RELEASE"; osgi.identity="org.springframework.ide.eclipse.quickfix"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.servlet)(&(version>=3.1.0)(!(version>=4.0.0))))
+     |
+    export: osgi.wiring.package=javax.servlet; uses:=javax.servlet.annotation
+  javax.servlet [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.v201410161800"; osgi.identity="javax.servlet"]
+    import: (&(osgi.wiring.package=javax.servlet.annotation)(version>=3.1.0))
+     |
+    export: osgi.wiring.package: javax.servlet.annotation; uses:=javax.servlet
+    export: osgi.wiring.package=javax.servlet
+  jakarta.servlet-api [osgi.identity; type="osgi.bundle"; version:Version="4.0.0"; osgi.identity="jakarta.servlet-api"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.app 0 0 2023-05-11 23:47:38.649
+!MESSAGE Product org.eclipse.epp.package.java.product could not be found.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-05-11 23:47:51.347
+!MESSAGE Logback config file: C:\JAVA\githurb\swing\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.ui 2 0 2023-05-11 23:47:51.761
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-11 23:47:51.761
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2023-05-11 23:47:52.520
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-11 23:47:52.520
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.jface 2 0 2023-05-11 23:47:53.270
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-11 23:47:53.270
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-11 23:47:53.270
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2023-05-11 23:47:57.065
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.657
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" id and the "Data Source Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.659
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.datatools.sqltools.plan.planView" id and the "Execution Plan" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.660
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.datatools.sqltools.result.resultView" id and the "SQL Results" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.671
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.jpt.ui.jpaStructureView" id and the "JPA Structure" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.673
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.jpt.ui.jpaDetailsView" id and the "JPA Details" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.676
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.jst.jsf.ui.component.ComponentTreeView" id and the "JSF Component Tree" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.678
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.jst.jsf.ui.tagregistry.TagRegistryView" id and the "Tag Registry" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.680
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.jst.ws.jaxws.ui.views.AnnotationsView" id and the "Annotation Properties" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.691
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.apidocs.rcp.views.apidocs" id and the "Augmented Docs" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.693
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.projectCoordinates" id and the "Project Coordinates" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-11 23:48:04.694
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KYUNG JUNE'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.695
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.modelRepositories" id and the "Model Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.708
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.dependencyOverview" id and the "Dependency Overview" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.711
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.shells.ui.view.commandsView" id and the "Remote Shell" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.712
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.systemView" id and the "Remote Systems" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.714
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.teamView" id and the "Team" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.715
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.systemTableView" id and the "Remote System Details" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.717
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.SystemSearchView" id and the "Remote Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.718
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" id and the "Remote Scratchpad" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.720
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.rse.ui.view.monitorView" id and the "Remote Monitor" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.724
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.search.SearchResultView" id and the "Classic Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.736
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.internet.monitor.view" id and the "TCP/IP Monitor" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.738
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.TypeHierarchy" id and the "Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.740
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.PackageExplorer" id and the "Script Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.742
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.callhierarchy.view" id and the "Call Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.744
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.SourceView" id and the "Declaration" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.746
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.jsdt.ui.JavadocView" id and the "Documentation" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.750
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xml.views.XPathView" id and the "XPath" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.751
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xsl.jaxp.debug.ui.resultview" id and the "Result" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-05-11 23:48:04.752
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.xsl.ui.view.outline" id and the "Stylesheet Model" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-05-11 23:48:05.614
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-05-11 23:48:05.615
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.springsource.ide.eclipse.commons.core 4 0 2023-05-11 23:48:08.162
+!MESSAGE May have failed to replace token 		//window.ide 'dummy'. Replaced/injected later by STS browser integration.
+
+!ENTRY org.springsource.ide.eclipse.commons.core 4 0 2023-05-11 23:48:08.163
+!MESSAGE May have failed to replace token 		//The dummy helps preview/test the page in an external browser.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-05-11 23:48:18.595
+!MESSAGE Setup tasks were performed during startup updating 363 preferences. See 'C:\Users\KYUNG JUNE\Desktop\eclipse-java-2022-09-R-win32-x86_64\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details

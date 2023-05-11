@@ -1,0 +1,2 @@
+INDEX VERSION 1.132+C:\JAVA\githurb\swing\.metadata\.plugins\org.eclipse.jdt.core
+4074870524.index

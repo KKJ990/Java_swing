@@ -1,0 +1,141 @@
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.table.DefaultTableModel;
+
+public class babo extends JFrame {
+	private JPanel p;
+	private JMenuBar mb;
+	private JMenu setting, info;
+	private JMenuItem sBackgroundColor, sReset, iInfo;
+	private JLabel stdInfoLb, nameLb, stdNumLb, stdImg, checkInfoLb, checkLb, returnLb, searchLb;
+	private JTextField stdNum, name, search;
+	private JTable Table,Table01,Table02;
+	String category[] = {"책이름", "저자", "대출자"};
+	String category01[] = {"책이름","대출자","대출일자"};
+	String category02[] = {"책이름","대출자","반남일자","연체기간"};
+	DefaultTableModel model, model1,model2;
+	JScrollPane tb_sc,tb1_sc,tb2_sc;
+	public babo(String title) {
+		// 기본 레이아웃 설정
+		setTitle(title);
+		setSize(1100,700);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocation(100, 50);
+		
+		p = new JPanel();
+		p.setLayout(null);
+		add(p);
+		
+		//메뉴바-------------------------------------------------------------------------------------------------------
+		mb = new JMenuBar();
+		setJMenuBar(mb);
+		
+		setting = new JMenu("Setting");
+		mb.add(setting);
+		
+		sBackgroundColor = new JMenuItem("배경색 설정");
+		setting.add(sBackgroundColor);
+		
+		sReset = new JMenuItem("리셋");
+		setting.add(sReset);
+		
+		info = new JMenu("Info");
+		mb.add(info);
+		
+		iInfo = new JMenuItem("정보");
+		info.add(iInfo);
+		
+		//학생 정보 레이아웃-----------------------------------------------------------------------------------------------
+		stdInfoLb = new JLabel("학생 정보");
+		stdInfoLb.setBounds(40, 30, 60, 15);
+		p.add(stdInfoLb);
+		
+		ImageIcon who = new ImageIcon("src/who.jpg");
+		stdImg = new JLabel(who);
+		stdImg.setBounds(50, 70, 180, 169);
+		p.add(stdImg);
+		
+		nameLb = new JLabel("학번    : ");
+		nameLb.setBounds(250, 78, 200, 20);
+		p.add(nameLb);
+		
+		stdNum = new JTextField();
+		stdNum.setBounds(310, 80, 200, 20);
+		p.add(stdNum);
+		
+		nameLb = new JLabel("이름    : ");
+		nameLb.setBounds(250, 128, 200, 20);
+		p.add(nameLb);
+		
+		name = new JTextField();
+		name.setBounds(310, 130, 200, 20);
+		p.add(name);
+		
+		//대출 정보-----------------------------------------------------------------------------------------------------
+		checkInfoLb = new JLabel("대출 정보");
+		checkInfoLb.setBounds(540, 30, 60, 15);
+		p.add(checkInfoLb);
+		
+		model = new DefaultTableModel(category,0);
+		Table = new JTable(model);		
+		tb_sc = new JScrollPane(Table);
+		tb_sc.setBounds(600, 50, 350, 400);
+		p.add(tb_sc);
+		
+		
+		
+		
+		
+		
+		//대출--------------------------------------------------------------------------------------------------------
+		checkLb = new JLabel("대출");
+		checkLb.setBounds(40, 270, 60, 15);
+		p.add(checkLb);
+		
+		model = new DefaultTableModel(category01,0);
+		Table01 = new JTable(model1);		
+		tb1_sc = new JScrollPane(Table01);
+		tb1_sc.setBounds(40,290, 350, 100);
+		p.add(tb1_sc);
+		
+		
+		
+		//반납--------------------------------------------------------------------------------------------------------
+		returnLb = new JLabel("반납");
+		returnLb.setBounds(270, 270, 60, 15);
+		p.add(returnLb);
+		
+		
+		
+		
+		
+		
+		//검색--------------------------------------------------------------------------------------------------------
+		searchLb = new JLabel("도서 검색");
+		searchLb.setBounds(40, 480, 60, 15);
+		p.add(searchLb);
+		search = new JTextField();
+		search.setBounds(40, 520, 200, 20);
+		p.add(search);
+		
+		
+		
+		
+		//기타--------------------------------------------------------------------------------------------------------
+		setVisible(true);
+		
+	}
+	
+	public static void main(String[] args) {
+		new babo("Library Management System");
+	}
+
+}
